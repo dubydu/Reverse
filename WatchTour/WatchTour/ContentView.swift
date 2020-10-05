@@ -24,6 +24,10 @@ struct ContentView: View {
         Text("Bottom!")
             .padding()
     }
+    var under: some View {
+        Text("Under!")
+            .padding()
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
