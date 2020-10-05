@@ -20,6 +20,10 @@ struct ContentView: View {
         Text("Description!")
             .padding()
     }
+    var footer: some View {
+        Text("Footer!")
+            .padding()
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
