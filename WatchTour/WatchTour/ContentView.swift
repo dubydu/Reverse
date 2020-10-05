@@ -16,6 +16,10 @@ struct ContentView: View {
         Text("Hello, world!")
             .padding()
     }
+    var footer: some View {
+        Text("Footer!")
+            .padding()
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
